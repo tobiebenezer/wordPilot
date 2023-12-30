@@ -174,7 +174,7 @@ section {
   .structure {
     margin: 1rem 0;
     display: grid;
-    grid-template-columns: 12rem 12rem 12rem 12rem 12rem 12rem;
+    grid-template-columns: 11rem 11rem 11rem 11rem 11rem 11rem;
     gap: 1.2rem;
   }
 
@@ -234,7 +234,7 @@ section {
 
         div:nth-child(3){
             textarea {
-                width:40rem;
+                width:36rem;
                 border: solid 1px rgb(206, 204, 204);
                 height: 5rem;
             }

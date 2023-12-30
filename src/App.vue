@@ -7,6 +7,7 @@ import AppMediaHubComponent from "./components/AppMediaHubComponent.vue";
 import AppSeoComponent from "./components/AppSeoComponent.vue";
 import AppKeywordComponent from "./components/AppKeywordComponent.vue";
 import AppStrctureComponent from "./components/AppStrctureComponent.vue";
+import AppDocumentComponent from "./components/AppDocumentComponent.vue";
 
 
 </script>
@@ -24,8 +25,7 @@ import AppStrctureComponent from "./components/AppStrctureComponent.vue";
       <app-seo-component/>
       <app-keyword-component/>
       <app-strcture-component/>
-
-
+      <app-document-component />
     </div>
 
   </main>
