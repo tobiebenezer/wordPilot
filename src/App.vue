@@ -4,6 +4,7 @@ import TheSideNav from "./components/TheSideNav.vue";
 import AppSettingComponent from "./components/AppSettingComponent.vue";
 import AppCoreSetComponent from "./components/AppCoreSetComponent.vue";
 import AppMediaHubComponent from "./components/AppMediaHubComponent.vue";
+import AppSeoComponent from "./components/AppSeoComponent.vue"
 
 
 </script>
@@ -18,6 +19,7 @@ import AppMediaHubComponent from "./components/AppMediaHubComponent.vue";
       <app-setting-component/>
       <app-core-set-component/>
       <app-media-hub-component/>
+      <app-seo-component/>
 
 
     </div>
