@@ -21,10 +21,13 @@ import TheSideNav from "./components/TheSideNav.vue";
 @import "./assets/base.less";
 
 .page {
-  display:flex;
-    .main {
-    padding: 1.2rem;
-  }
+  display: flex;
+   width: 100lvw;
 }
 
+.main {
+  flex: 5; 
+  padding: 0.9rem;
+  width: 80%; 
+}
 </style>

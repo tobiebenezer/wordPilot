@@ -27,12 +27,13 @@
     
     .sidebar {
         background: @secondary;
-        height: 100vh;
+        height: 95vh;
         width: 16rem;
         position:sticky;
         top:0;
-        padding: 2rem;
+        padding: 1.3rem;
         color:white;
+        flex:1 1 ;
 
         .logo{
             text-align:center;
@@ -56,7 +57,7 @@
 
             &:nth-child(2) {
                 background-color: @primary;
-                border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+                border-radius: @bradius;
                 
             }
 
