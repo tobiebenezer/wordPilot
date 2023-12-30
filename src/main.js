@@ -8,12 +8,12 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* import specific icons */
 import { faUserSecret,faBars,faChevronDown,faBell ,
-    faArrowLeft,
+    faArrowLeft,faXmark,
      faExclamationCircle} from '@fortawesome/free-solid-svg-icons'
 
 
 library.add([faUserSecret,faBars,faChevronDown,faBell,
-    faArrowLeft,
+    faArrowLeft,faXmark,
      faExclamationCircle]);
 
 createApp(App)

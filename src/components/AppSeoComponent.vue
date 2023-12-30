@@ -36,8 +36,8 @@
       </div>
 
       <div class="intense">
-        <input type="checkbox" checked name="" id="" /> All media elements will be striclty under
-        the headings. If disabled, the AI will decide and find the placement.
+        <input type="checkbox" checked name="" id="" /> Use the main keyword to write and insert a meta description in the 
+        post. Also relevant keywords will ve picked up and added to the meta description.
       </div>
     </div>
   </section>

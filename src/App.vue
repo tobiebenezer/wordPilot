@@ -4,7 +4,8 @@ import TheSideNav from "./components/TheSideNav.vue";
 import AppSettingComponent from "./components/AppSettingComponent.vue";
 import AppCoreSetComponent from "./components/AppCoreSetComponent.vue";
 import AppMediaHubComponent from "./components/AppMediaHubComponent.vue";
-import AppSeoComponent from "./components/AppSeoComponent.vue"
+import AppSeoComponent from "./components/AppSeoComponent.vue";
+import AppKeywordComponent from "./components/AppKeywordComponent.vue";
 
 
 </script>
@@ -20,6 +21,7 @@ import AppSeoComponent from "./components/AppSeoComponent.vue"
       <app-core-set-component/>
       <app-media-hub-component/>
       <app-seo-component/>
+      <app-keyword-component/>
 
 
     </div>
