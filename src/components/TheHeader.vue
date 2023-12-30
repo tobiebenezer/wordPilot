@@ -41,8 +41,7 @@
    @import "../assets/base.less";
 
     header {  
-        position: sticky;
-        top:0;
+        
         .card {
         display:flex;
         justify-content: space-between;

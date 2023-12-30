@@ -38,21 +38,28 @@ import AppDocumentComponent from "./components/AppDocumentComponent.vue";
 .page {
   display: flex;
    width: 98lvw;
+   position:static;
+   top:0;
 
   }
   
   
   .main {
-    
+    margin-top:5rem ;
+    align-self: flex-start;
+    position: -webkit-sticky;
     flex: 5; 
     padding: 0.9rem;
     width: 80%; 
     overflow-x: hidden;
     .header {
-
-      position: -webkit-sticky;
-      position:sticky;
-      top:10px;
+      margin-top:0.2rem;
+      position:-webkit-sticky;
+      position:fixed;
+      width:78vw;
+      top:0;
+      background:@bgcolor;
+     
       align-self: flex-start;
     }
 
