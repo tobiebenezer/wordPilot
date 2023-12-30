@@ -3,6 +3,7 @@ import TheHeader from "./components/TheHeader.vue";
 import TheSideNav from "./components/TheSideNav.vue";
 import AppSettingComponent from "./components/AppSettingComponent.vue";
 import AppCoreSetComponent from "./components/AppCoreSetComponent.vue";
+import AppMediaHubComponent from "./components/AppMediaHubComponent.vue";
 
 
 </script>
@@ -11,9 +12,13 @@ import AppCoreSetComponent from "./components/AppCoreSetComponent.vue";
   <main class="page">
     <the-side-nav/>
     <div class="main">
-      <the-header/>
+      <div class="header">
+        <the-header/>
+      </div>
       <app-setting-component/>
       <app-core-set-component/>
+      <app-media-hub-component/>
+
 
     </div>
 
@@ -27,12 +32,23 @@ import AppCoreSetComponent from "./components/AppCoreSetComponent.vue";
 .page {
   display: flex;
    width: 98lvw;
-}
 
-.main {
-  flex: 5; 
-  padding: 0.9rem;
-  width: 80%; 
-  overflow-x: hidden;
-}
+  }
+  
+  
+  .main {
+    
+    flex: 5; 
+    padding: 0.9rem;
+    width: 80%; 
+    overflow-x: hidden;
+    .header {
+
+      position: -webkit-sticky;
+      position:sticky;
+      top:10px;
+      align-self: flex-start;
+    }
+
+  }
 </style>

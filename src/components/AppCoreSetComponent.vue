@@ -91,7 +91,7 @@
 
 section {
     margin: 2.5rem 0;
-    height:60vh;
+    
     .body {
         display:flex;
         width:60vw;
@@ -121,8 +121,12 @@ section {
                 grid-template-columns: 13rem 13rem;
                 gap:0.4rem;
                 .size-text {
-                    margin-top:3rem;
+                    margin-top:2.5rem;
                     font-size:11px;
+                    align-items: center;
+                    background: @lightprimary;
+                    
+                    padding: 0.6rem;
                 }
             }
 
