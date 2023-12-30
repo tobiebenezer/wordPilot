@@ -25,6 +25,11 @@
 
         </div>
     </div>
+    <div >
+        <span><font-awesome-icon :icon="['fas', 'arrow-left']" style="color: #f5f7f9;" /></span>
+        Write
+
+    </div>
    </header>
 </template>
 
@@ -36,7 +41,8 @@
    @import "../assets/base.less";
 
     header {  
-        
+        position: sticky;
+        top:0;
         .card {
         display:flex;
         justify-content: space-between;
@@ -99,6 +105,20 @@
             }
         }
     }
+     & > div:nth-of-type(2){
+        margin: 0.5rem 0;
+        display:flex;
+        align-items:center;
+        gap:.5rem;
+        font-size: 20px;
+
+        span {
+            background: @primary;
+            padding: 0.3rem 1rem;
+            font-size: 14px;
+        }
+    }
+
     }
 
 
@@ -108,10 +128,12 @@
     width:13rem;
     border: none;
     outline: none;
-    &::placeholder {
-        color: rgb(163, 163, 163);
+        &::placeholder {
+            color: rgb(163, 163, 163);
+        }
+
     }
-}
+   
 
 
 </style>

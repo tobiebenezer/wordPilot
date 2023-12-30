@@ -1,6 +1,8 @@
 <script setup>
 import TheHeader from "./components/TheHeader.vue";
 import TheSideNav from "./components/TheSideNav.vue";
+import AppSettingComponent from "./components/AppSettingComponent.vue";
+import AppCoreSetComponent from "./components/AppCoreSetComponent.vue";
 
 
 </script>
@@ -10,6 +12,8 @@ import TheSideNav from "./components/TheSideNav.vue";
     <the-side-nav/>
     <div class="main">
       <the-header/>
+      <app-setting-component/>
+      <app-core-set-component/>
 
     </div>
 
@@ -22,12 +26,13 @@ import TheSideNav from "./components/TheSideNav.vue";
 
 .page {
   display: flex;
-   width: 100lvw;
+   width: 98lvw;
 }
 
 .main {
   flex: 5; 
   padding: 0.9rem;
   width: 80%; 
+  overflow-x: hidden;
 }
 </style>
