@@ -7,7 +7,7 @@
         <div class="menu">
             <ul>
                 <li><font-awesome-icon icon="fa-solid fa-user-secret" />Dashboard</li>
-                <li><font-awesome-icon icon="fa-solid fa-user-secret" />Project</li>
+                <li><font-awesome-icon icon="fa-solid fa-user-secret" />Projects</li>
                 <li><font-awesome-icon icon="fa-solid fa-user-secret" />Scheduler</li>
                 <li><font-awesome-icon icon="fa-solid fa-user-secret" />Content Wizard</li>
                 <li><font-awesome-icon icon="fa-solid fa-user-secret" />Documents</li>
@@ -28,7 +28,7 @@
     .sidebar {
         background: @secondary;
         height: 100vh;
-        width: 18rem;
+        width: 16rem;
         position:sticky;
         top:0;
         padding: 2rem;
