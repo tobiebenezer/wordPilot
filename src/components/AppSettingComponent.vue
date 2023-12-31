@@ -18,7 +18,7 @@
                     <span>Title <span class="title-required">*</span></span>
                     <span>66/100</span>
                 </span>
-                <input type="text">
+                <input type="text" placeholder="What do dermatologist prescribe for skin whitening? Discover Now!">
             </div>
         </div>
         
