@@ -64,7 +64,7 @@
 
             .title{
                 .title();
-                width:45rem;
+                width:50rem;
             }
           
 
