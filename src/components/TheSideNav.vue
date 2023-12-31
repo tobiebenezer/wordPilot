@@ -25,7 +25,7 @@
 
 .sidebar {
   background: @secondary;
-  height: 95vh;
+  height: 100vh;
   width: 16rem;
   position: sticky;
   top: 0;
