@@ -6,12 +6,12 @@
     <hr />
     <div class="menu">
       <ul>
-        <li><img style="height:20px" src="../assets/dashboard.png" /> Dashboard</li>
-        <li><font-awesome-icon icon="fa-solid fa-folder-closed" style="color: black" />Projects</li>
-        <li><img style="height:20px" src="../assets/calendar_clock.png" />Scheduler</li>
-        <li><font-awesome-icon icon="fa-solid fa-star" style="color: black" />Content Wizard</li>
-        <li><font-awesome-icon icon="fa-solid fa-file" style="color: black; margin-left:5px;" />Documents</li>
-        <li><font-awesome-icon icon="fa-solid fa-right-from-bracket" style="color: black; margin-left:5px;" />Log Out</li>
+        <li><font-awesome-icon icon="fa-solid fa-border-all" /> Dashboard</li>
+        <li><font-awesome-icon icon="fa-solid fa-folder-closed" />Projects</li>
+        <li><font-awesome-icon icon="fa-regular fa-calendar-days" />Scheduler</li>
+        <li><font-awesome-icon icon="fa-solid fa-star"  />Content Wizard</li>
+        <li><font-awesome-icon icon="fa-solid fa-file" />Documents</li>
+        <li><font-awesome-icon icon="fa-solid fa-right-from-bracket" />Log Out</li>
       </ul>
     </div>
   </div>
@@ -30,7 +30,7 @@
   position: sticky;
   top: 0;
   padding: 1.3rem;
-  color: white;
+  color:#7a7a7a;
   flex: 1 1;
 
   .logo {
@@ -55,6 +55,7 @@
     &:nth-child(2) {
       background-color: @primary;
       border-radius: @bradius;
+      color:white;
     }
   }
 }
