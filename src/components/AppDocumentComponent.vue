@@ -92,6 +92,7 @@ section {
         display:flex;
         margin: 1rem 0;
         gap:1.2rem;
+        color: rgb(107, 107, 107);
 
         .input {
             width: 13rem;
@@ -117,6 +118,7 @@ section {
                 margin-top:1rem;
                 display:flex;
                 gap:2rem;
+                color: rgb(107, 107, 107);
 
                 .left {
                     width:13rem;
@@ -141,6 +143,7 @@ section {
         margin-top:1rem;
         display:flex;
         gap:2rem;
+        color: rgb(107, 107, 107);
 
         .left {
             width:20rem;
@@ -184,7 +187,7 @@ section {
 
   .title {
     .title();
-    color: black;
+    color: rgb(107, 107, 107);
     padding: 0rem 0 0.3rem 0;
   }
 }

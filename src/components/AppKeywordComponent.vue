@@ -31,7 +31,7 @@
           <span><font-awesome-icon icon="fa-solid fa-xmark" /></span>
         </div>
         <div class="size-text">
-          <span> skkin lightening creams prescribed by dermatologists</span>
+          <span> skin lightening creams prescribed by dermatologists</span>
           <span><font-awesome-icon icon="fa-solid fa-xmark" /></span>
         </div>
         <div class="size-text">
@@ -97,49 +97,49 @@ section {
 
       div:nth-child(1) {
         float: left;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem 0.5rem 1rem 0;
       }
       div:nth-child(2) {
         float: left;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem 0.5rem 1rem 0;
       }
       div:nth-child(3) {
         float: left;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem 0.5rem 1rem 0;
       }
       div:nth-child(4) {
         float: left;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem 0.5rem 1rem 0;
       }
       div:nth-child(5) {
         float: left;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem 0.5rem 1rem 0;
       }
       div:nth-child(6) {
         float: left;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem 0.5rem 1rem 0;
       }
       div:nth-child(7) {
         float: left;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem 0.5rem 1rem 0;
       }
       div:nth-child(8) {
         float: left;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem 0.5rem 1rem 0;
       }
       div:nth-child(9) {
         float: left;
-        margin: 1rem 1rem 1rem 0;
+        margin: 1rem 0.5rem 1rem 0;
       }
 
       .size-text {
-        font-size: 10px;
+        font-size: 9px;
         align-items: center;
         background: @lightprimary;
         padding: 0.6rem;
         display: flex;
-        color: black;
-        gap: 0.7rem;
+        color: rgb(107, 107, 107);
+        gap: 0.3rem;
         justify-content: space-between;
       }
     }

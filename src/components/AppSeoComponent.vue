@@ -66,12 +66,12 @@ section {
 
     }
     .intense {
-        font-size:13px;
+        font-size:12px;
         display: flex;
         align-items: center;
         margin-top:1rem;
         gap:0.3rem;
-    
+        color:gray;
     }
 }
 </style>

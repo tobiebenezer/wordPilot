@@ -174,18 +174,19 @@ section {
   .structure {
     margin: 1rem 0;
     display: grid;
-    grid-template-columns: 11rem 11rem 11rem 11rem 11rem 11rem;
+    grid-template-columns: 10rem 10rem 10rem 10rem 10rem 10rem;
     gap: 1.2rem;
+    color: rgb(107, 107, 107);
   }
 
   .connect {
     display: flex;
     gap: 4rem;
+    color: rgb(107, 107, 107);
     .lc {
-      flex: 1 1;
       margin-bottom: 1rem;
 
-      width: 30rem;
+      width: 21rem;
       .lc-1 {
         margin-bottom: 1rem;
         display: flex;
@@ -193,16 +194,16 @@ section {
         gap: 1rem;
 
         div {
-          width: 14.5rem;
+          width: 10rem;
         }
       }
     }
 
     .rc {
       flex: 3 1;
-      font-size: 12px;
+      font-size: 10px;
       p {
-        width: 36rem;
+        width: 30rem;
       }
     }
   }
@@ -210,7 +211,7 @@ section {
     .url {
       margin-bottom: 1rem;
       textarea {
-        width: 70rem;
+        width: 56rem;
         height: 3.6rem;
       }
     }
@@ -223,18 +224,18 @@ section {
         gap:1.2rem;
 
         div:nth-child(1){
-            width:14.5rem;
+            width:11rem;
             
         }
 
         div:nth-child(2){
-            width:14.5rem;
+            width:11rem;
             
         }
 
         div:nth-child(3){
             textarea {
-                width:36rem;
+                width:32rem;
                 border: solid 1px rgb(206, 204, 204);
                 height: 5rem;
             }
@@ -247,11 +248,12 @@ section {
   .select-group {
     .select-group(100%,2.3rem);
     border: solid 0.1px rgb(210, 209, 209);
+    color: rgb(107, 107, 107);
   }
 
   .title {
     .title();
-    color: black;
+    color: rgb(107, 107, 107);
     padding: 0rem 0 0.3rem 0;
   }
 }

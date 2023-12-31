@@ -88,7 +88,7 @@ section {
     .card-body{
         display:grid;
         margin-top:1.5rem;
-        grid-template-columns: 15rem 12rem 18rem 15rem 15rem;
+        grid-template-columns: 13rem 9rem 15rem 12rem 12rem;
         gap:1.5rem;
         .select-group{
             .select-group(100%,2.3rem);
@@ -102,10 +102,11 @@ section {
 
         .intense {
             grid-column: 1/span 5;
-            font-size:13px;
+            font-size:12px;
             display: flex;
             align-items: center;
             gap:0.3rem;
+            color:gray;
 
         }
 

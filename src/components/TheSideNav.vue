@@ -46,10 +46,10 @@
 
   li {
     display: flex;
-    gap: 0.5rem;
+    gap: 0.7rem;
     align-items: center;
     list-style: none;
-    padding: 0.3rem 1.2rem;
+    padding: 0.7rem 1.2rem;
     margin: 0.4rem 0;
 
     &:nth-child(2) {
